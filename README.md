@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cassandra Decoteau - Resume</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px auto;
+            max-width: 800px;
+            line-height: 1.6;
+            color: #222;
+        }
+        h1, h2 {
+            color: #1a3d7c;
+        }
+        h1 {
+            margin-bottom: 0;
+        }
+        .section {
+            margin-top: 28px;
+        }
+        .contact a {
+            color: #1a3d7c;
+            text-decoration: none;
+        }
+        .subheading {
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+<h1>Cass D</h1>
+<p><strong>Business Analyst | MS Business Analytics Candidate</strong></p>
+<p>Boston, MA</p>
+
+<div class="contact">
+    <p>
+        <strong>Phone:</strong> (857) 250-9473<br>
+        <strong>Email:</strong> <a href="mailto:delphinaj542@gmail.com">delphinaj542@gmail.com</a><br>
+        <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/cdecoteau/" target="_blank">linkedin.com/in/cdecoteau/</a>
+    </p>
+</div>
+
+<div class="section">
+    <h2>Skills</h2>
+    <p><span class="subheading">Technical Tools:</span><br>
+    SQL · Tableau · Power BI · Excel  · Python · SPSS</p>
+
+    <p><span class="subheading">Analytical & Professional Skills:</span><br>
+    Market Research · Data Collection · Data Visualization · Dashboard Development · Data Analysis</p>
+</div>
+
+<div class="section">
+    <h2>Education</h2>
+
+    <p><strong>Suffolk University — Sawyer Business School</strong><br>
+    Boston, MA · Master of Science, Business Analytics · Sep 2025 – May 2026<br>
+    <em>Relevant Courses:</em> Data Management & Modeling · Analytics with Python · Predictive Analytics & ML · BI & Visualization · Business Problem Solving with Excel</p>
+
+    <p><strong>The University of the West Indies</strong><br>
+    Bridgetown, Barbados · B.Sc. Management Studies, Minor in Economics · Aug 2013 – Sep 2020<br>
+    GPA: 3.85/4.0 · First-Class Honors<br>
+    <em>Relevant Coursework:</em> Survey Design & Analysis · Introductory Statistics · Mathematical Methods · Statistical Methods · Quantitative Methods<br>
+    <em>Research:</em> Conducted a statistical study analyzing the relationship between physical activity and hypertension using descriptive and inferential methods.</p>
+</div>
+
+<div class="section">
+    <h2>Awards & Honors</h2>
+    <ul>
+        <li>SBS Graduate Fellowship (Suffolk University)</li>
+        <li>Campus Honor Roll</li>
+        <li>Coreas Hazell Inc. Bursary 2018/2019</li>
+        <li>Island Scholars Scholarship 2019/2020</li>
+        <li>St. Vincent & the Grenadines Tuition Scholarship 2019/2020</li>
+    </ul>
+</div>
+
+<div class="section">
+    <h2>Work Experience</h2>
+
+    <p><strong>Career Community Graduate Assistant / Fellow</strong><br>
+    Suffolk University — Career Center · Boston, MA · Sep 2025 – Present<br>
+    - Processed and validated 50+ employer registrations, improving data accuracy and reducing approval time by 20%.<br>
+    - Coached 30+ students on resumes and career platform usage.</p>
+
+    <p><strong>Field Supervisor / Enumerator</strong><br>
+    Ministry of Economic Planning / Statistical Office · Kingstown, St. Vincent · Jan 2015 – Aug 2024<br>
+    - Supervised 15 enumerators and validated 40+ surveys daily, maintaining 95%+ coding accuracy.<br>
+    - Streamlined tablet-based workflows, reducing transcription errors and improving reporting speed by 98%.</p>
+
+    <p><strong>Field Supervisor / Enumerator</strong><br>
+    Data Point Solutions Inc. · Kingstown, St. Vincent · Jun 2018 – Dec 2023<br>
+    - Led teams of 10+ enumerators with 100% on-time project delivery.<br>
+    - Conducted 10+ electronic interviews per day, generating insights for financial literacy and market-entry studies.</p>
+</div>
+
+<div class="section">
+    <h2>Certifications & Training</h2>
+    <ul>
+        <li>Generative AI & ML Fundamentals (AWS)</li>
+        <li>Certified Front Desk Representative (AHLA)</li>
+        <li>Customer Service — SVG Ministry of Tourism</li>
+        <li>Professional Hospitality Training — HRC</li>
+    </ul>
+</div>
+
+<div class="section">
+    <h2>Project</h2>
+    <p><strong>AWS Generative AI & ML Program — Vincy Voice: Island Talk & U.S. Life Decoder</strong><br>
+    Jul 2025 – Aug 2025 · Prompt Engineer & Content Curator<br>
+    - Built a bilingual AI app translating between Vincentian Creole and U.S. English.<br>
+    - Developed prompt strategies and tone rules to preserve authentic speech.<br>
+    - Curated dialogue examples for cultural learning and usability testing.</p>
+</div>
+
+<div class="section">
+    <h2>Additional Information</h2>
+    <p>Active MS Business Analytics student — available for part-time or internship roles in analytics, BI, and data visualization.</p>
+</div>
+
+</body>
+</html>

@@ -1,308 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Cass D — Business Analyst Resume</title>
-  <meta name="description" content="Resume of Cass D — Business Analyst. Master of Science (Business Analytics) candidate at Suffolk University." />
-  <style>
-    /* ========= Basic typography & layout ========= */
-    :root{
-      --max-width:900px;
-      --accent:#0a66c2; /* professional accent (LinkedIn blue) */
-      --text:#1b1b1b;
-      --muted:#555555;
-      --gap:1rem;
-    }
-    html,body{
-      height:100%;
-      margin:0;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-      color:var(--text);
-      background-color:#f6f7f9;
-      -webkit-font-smoothing:antialiased;
-      -moz-osx-font-smoothing:grayscale;
-      line-height:1.45;
-      font-size:16px;
-    }
-    /* Centered card */
-    .container{
-      max-width:var(--max-width);
-      margin:28px auto;
-      background:white;
-      padding:28px;
-      box-shadow:0 6px 18px rgba(20,20,20,0.06);
-      border-radius:8px;
-      box-sizing:border-box;
-    }
-    header{
-      display:flex;
-      flex-direction:column;
-      gap:8px;
-      margin-bottom:20px;
-    }
-    /* Name and title */
-    .name-row{
-      display:flex;
-      flex-wrap:wrap;
-      align-items:baseline;
-      justify-content:space-between;
-      gap:12px;
-    }
-    h1{
-      font-size:1.75rem;
-      margin:0;
-      letter-spacing:0.2px;
-      color:var(--text);
-    }
-    .subtitle{
-      font-size:1rem;
-      color:var(--muted);
-      margin:0;
-    }
-    /* Contact */
-    .contact{
-      display:flex;
-      flex-wrap:wrap;
-      gap:12px;
-      font-size:0.95rem;
-      color:var(--muted);
-    }
-    .contact a{ color:var(--muted); text-decoration:none; }
-    .contact a:hover{ text-decoration:underline; color:var(--accent); }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cass D - Resume</title>
 
-    /* Sections */
-    main{ display:block; }
-    section{ margin-bottom:18px; }
-    h2{
-      font-size:1.05rem;
-      margin:0 0 10px 0;
-      padding-bottom:6px;
-      border-bottom:2px solid #eef3f8;
-      color:var(--accent);
-    }
-    /* Two-column layout for Education & Skills */
-    .grid{
-      display:grid;
-      grid-template-columns:1fr 320px;
-      gap:20px;
-    }
-    @media (max-width:800px){
-      .grid{ grid-template-columns:1fr; }
-      .name-row{ align-items:flex-start; }
-    }
-
-    /* Lists and experience */
-    .job{
-      margin-bottom:12px;
-    }
-    .job h3{
-      margin:0;
-      font-size:1rem;
-    }
-    .job .meta{
-      font-size:0.9rem;
-      color:var(--muted);
-      margin-bottom:6px;
-    }
-    ul.bullets{
-      margin:8px 0 0 1rem;
-      padding:0;
-    }
-    ul.bullets li{
-      margin-bottom:8px;
-    }
-
-    /* Skills block */
-    .skills{
-      display:flex;
-      flex-direction:column;
-      gap:8px;
-    }
-    .skill-group{
-      background:#fbfcfe;
-      padding:10px;
-      border-radius:6px;
-      border:1px solid #f0f4f8;
-    }
-    .muted-caption{
-      font-size:0.9rem;
-      color:var(--muted);
-    }
-
-    /* Footer small print */
-    footer{
-      margin-top:18px;
-      font-size:0.85rem;
-      color:var(--muted);
-      text-align:center;
-    }
-
-    /* Print-friendly adjustments */
-    @media print {
-      body{ background:white; }
-      .container{ box-shadow:none; margin:0; border-radius:0; }
-      h2{ color:black; border-color:#e6e6e6; }
-      a:after{ content:" (" attr(href) ")"; font-size:0.85em; color:#666; }
-    }
-    /* Accessibility focus */
-    a:focus { outline:3px dashed rgba(10,102,194,0.25); outline-offset:2px; }
-  </style>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px auto;
+            max-width: 800px;
+            line-height: 1.6;
+            color: #222;
+        }
+        h1, h2 {
+            color: #1a3d7c;
+        }
+        h1 {
+            margin-bottom: 0;
+        }
+        .section {
+            margin-top: 28px;
+        }
+        .contact a {
+            color: #1a3d7c;
+            text-decoration: none;
+        }
+        .subheading {
+            font-weight: bold;
+        }
+    </style>
 </head>
+
 <body>
-  <!-- Confirmation (task understood) -->
-  <!-- I understand the task: convert the provided CV content into a single, clean HTML/CSS resume. -->
-  <div class="container" role="main" aria-labelledby="resume-title">
-    <header aria-label="Name and contact">
-      <div class="name-row">
-        <div>
-          <h1 id="resume-title">Cass D <span style="font-weight:600; color:var(--muted); font-size:0.95rem;">(Business Analyst)</span></h1>
-          <p class="subtitle">Master of Science (Business Analytics) candidate — Suffolk University</p>
-        </div>
-        <div style="text-align:right;">
-          <p class="muted-caption">Boston, MA</p>
-        </div>
-      </div>
 
-      <!-- Contact information -->
-      <!-- Update this email address if it changes -->
-      <nav class="contact" aria-label="Contact information">
-        <div><strong>Phone:</strong> <a href="tel:+18572509473" aria-label="Call Cass D">(857) 250-9473</a></div>
-        <div><strong>Email:</strong> <a href="mailto:delphinaj542@gmail.com">delphinaj542@gmail.com</a></div>
-        <div><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/cdecoteau/" target="_blank" rel="noopener">linkedin.com/in/cdecoteau/</a></div>
-      </nav>
-    </header>
+<h1>Cass D</h1>
+<p><strong>Business Analyst | MS Business Analytics Candidate</strong></p>
+<p>Boston, MA</p>
 
-    <main>
-      <!-- Start Summary / Skills Section -->
-      <section aria-labelledby="skills-heading">
-        <h2 id="skills-heading">Skills</h2>
-        <div class="grid">
-          <div>
-            <div class="skill-group" aria-label="Technical tools">
-              <div class="muted-caption" style="font-weight:600; margin-bottom:6px;">Technical Tools</div>
-              <div>SQL · Tableau · Power BI · Excel (PivotTables, Solver) · Python · SPSS</div>
-            </div>
-            <div class="skill-group" style="margin-top:10px;" aria-label="Analytical skills">
-              <div class="muted-caption" style="font-weight:600; margin-bottom:6px;">Analytical & Professional Skills</div>
-              <div>Market Research · Data Collection · Data Visualization · Dashboard Development · Data Analysis</div>
-            </div>
-          </div>
+<div class="contact">
+    <p>
+        <strong>Phone:</strong> (857) 250-9473<br>
+        <strong>Email:</strong> <a href="mailto:delphinaj542@gmail.com">delphinaj542@gmail.com</a><br>
+        <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/cdecoteau/" target="_blank">linkedin.com/in/cdecoteau/</a>
+    </p>
+</div>
 
-          <!-- Education condensed right column -->
-          <div>
-            <section aria-labelledby="education-heading">
-              <h2 id="education-heading">Education</h2>
+<div class="section">
+    <h2>Skills</h2>
+    <p><span class="subheading">Technical Tools:</span><br>
+    SQL · Tableau · Power BI · Excel (PivotTables, Solver) · Python · SPSS</p>
 
-              <div class="job">
-                <h3>SUFFOLK UNIVERSITY — Sawyer Business School</h3>
-                <div class="meta">Boston, MA · Master of Science, Business Analytics · Sep 2025 – May 2026</div>
-                <div class="muted-caption">Relevant Courses: Data Management & Modeling; Analytics with Python; Predictive Analytics & Machine Learning; Business Intelligence & Visualization; Business Problem Solving with Excel</div>
-              </div>
+    <p><span class="subheading">Analytical & Professional Skills:</span><br>
+    Market Research · Data Collection · Data Visualization · Dashboard Development · Data Analysis</p>
+</div>
 
-              <div class="job" style="margin-top:12px;">
-                <h3>THE UNIVERSITY OF THE WEST INDIES</h3>
-                <div class="meta">Bridgetown, Barbados · B.Sc. Management Studies, Minor in Economics · Aug 2013 – Sep 2020</div>
-                <div class="muted-caption">GPA: 3.85/4.0 · First-Class Honors</div>
-                <div style="margin-top:6px;">
-                  <div class="muted-caption" style="font-weight:600;">Relevant coursework & research</div>
-                  <div>Survey Design & Analysis; Introductory Statistics; Mathematical Methods; Statistical Methods; Introduction to Quantitative Methods.</div>
-                  <div style="margin-top:6px;">Research: Conducted a statistical study measuring the relationship between physical activity and hypertension using descriptive and inferential methods.</div>
-                </div>
-              </div>
+<div class="section">
+    <h2>Education</h2>
 
-            </section>
-          </div>
-        </div>
-      </section>
-      <!-- End Summary / Skills Section -->
+    <p><strong>Suffolk University — Sawyer Business School</strong><br>
+    Boston, MA · Master of Science, Business Analytics · Sep 2025 – May 2026<br>
+    <em>Relevant Courses:</em> Data Management & Modeling · Analytics with Python · Predictive Analytics & ML · BI & Visualization · Business Problem Solving with Excel</p>
 
-      <!-- Start Awards & Honors Section -->
-      <section aria-labelledby="awards-heading">
-        <h2 id="awards-heading">Awards & Honors</h2>
-        <ul class="bullets">
-          <li>SBS Graduate Fellowship (Suffolk University)</li>
-          <li>Campus Honor Roll</li>
-          <li>Coreas Hazell Inc. Bursary 2018/2019</li>
-          <li>Island Scholars Scholarship 2019/2020</li>
-          <li>St. Vincent & the Grenadines Tuition Scholarship 2019/2020</li>
-        </ul>
-      </section>
-      <!-- End Awards & Honors Section -->
+    <p><strong>The University of the West Indies</strong><br>
+    Bridgetown, Barbados · B.Sc. Management Studies, Minor in Economics · Aug 2013 – Sep 2020<br>
+    GPA: 3.85/4.0 · First-Class Honors<br>
+    <em>Relevant Coursework:</em> Survey Design & Analysis · Introductory Statistics · Mathematical Methods · Statistical Methods · Quantitative Methods<br>
+    <em>Research:</em> Conducted a statistical study analyzing the relationship between physical activity and hypertension using descriptive and inferential methods.</p>
+</div>
 
-      <!-- Start Experience Section -->
-      <section aria-labelledby="experience-heading">
-        <h2 id="experience-heading">Work Experience</h2>
+<div class="section">
+    <h2>Awards & Honors</h2>
+    <ul>
+        <li>SBS Graduate Fellowship (Suffolk University)</li>
+        <li>Campus Honor Roll</li>
+        <li>Coreas Hazell Inc. Bursary 2018/2019</li>
+        <li>Island Scholars Scholarship 2019/2020</li>
+        <li>St. Vincent & the Grenadines Tuition Scholarship 2019/2020</li>
+    </ul>
+</div>
 
-        <div class="job" aria-label="Suffolk University experience">
-          <h3>Career Community Graduate Assistant / Fellow — Suffolk University, Career Center</h3>
-          <div class="meta">Boston, MA · Sep 2025 – Present</div>
-          <!-- Start Experience Section -->
-          <ul class="bullets">
-            <li>Processed and validated 50+ employer registrations in Handshake, improving data accuracy and reducing approval time by 20%.</li>
-            <li>Coached 30+ students on resume reviews and career platform usage, contributing to a measurable increase in internship placement success.</li>
-          </ul>
-        </div>
+<div class="section">
+    <h2>Work Experience</h2>
 
-        <div class="job" aria-label="Ministry of Economic Planning experience">
-          <h3>Field Supervisor / Enumerator — Ministry of Economic Planning / Statistical Office</h3>
-          <div class="meta">Kingstown, St. Vincent · Jan 2015 – Aug 2024</div>
-          <ul class="bullets">
-            <li>Supervised 15 enumerators and validated 40+ surveys daily, maintaining coding accuracy above 95% for national census data.</li>
-            <li>Streamlined tablet-based data collection workflows, eliminating transcription errors and accelerating reporting processes by 98%.</li>
-          </ul>
-        </div>
+    <p><strong>Career Community Graduate Assistant / Fellow</strong><br>
+    Suffolk University — Career Center · Boston, MA · Sep 2025 – Present<br>
+    - Processed and validated 50+ employer registrations, improving data accuracy and reducing approval time by 20%.<br>
+    - Coached 30+ students on resumes and career platform usage.</p>
 
-        <div class="job" aria-label="Data Point Solutions experience">
-          <h3>Field Supervisor / Enumerator — Data Point Solutions Inc.</h3>
-          <div class="meta">Kingstown, St. Vincent · Jun 2018 – Dec 2023</div>
-          <ul class="bullets">
-            <li>Directed teams of 10+ enumerators across regional market research projects, ensuring 100% on-time delivery to clients.</li>
-            <li>Conducted 10+ electronic interviews per day using digital survey tools, producing insights that informed financial literacy and market-entry strategies.</li>
-          </ul>
-        </div>
-      </section>
-      <!-- End Experience Section -->
+    <p><strong>Field Supervisor / Enumerator</strong><br>
+    Ministry of Economic Planning / Statistical Office · Kingstown, St. Vincent · Jan 2015 – Aug 2024<br>
+    - Supervised 15 enumerators and validated 40+ surveys daily, maintaining 95%+ coding accuracy.<br>
+    - Streamlined tablet-based workflows, reducing transcription errors and improving reporting speed by 98%.</p>
 
-      <!-- Start Certifications & Training Section -->
-      <section aria-labelledby="training-heading">
-        <h2 id="training-heading">Certifications & Training</h2>
-        <ul class="bullets">
-          <li>Generative AI & ML Fundamentals (AWS)</li>
-          <li>Certified Front Desk Representative (AHLA)</li>
-          <li>Customer Service — SVG Ministry of Tourism</li>
-          <li>Professional Hospitality Training — HRC</li>
-        </ul>
-      </section>
-      <!-- End Certifications & Training Section -->
+    <p><strong>Field Supervisor / Enumerator</strong><br>
+    Data Point Solutions Inc. · Kingstown, St. Vincent · Jun 2018 – Dec 2023<br>
+    - Led teams of 10+ enumerators with 100% on-time project delivery.<br>
+    - Conducted 10+ electronic interviews per day, generating insights for financial literacy and market-entry studies.</p>
+</div>
 
-      <!-- Start Projects Section -->
-      <section aria-labelledby="projects-heading">
-        <h2 id="projects-heading">Selected Project</h2>
-        <div class="job">
-          <h3>AWS Generative AI & ML Program — Vincy Voice: Island Talk & U.S. Life Decoder</h3>
-          <div class="meta">Jul 2025 – Aug 2025 · Prompt Engineer & Content Curator</div>
-          <ul class="bullets">
-            <li>Built a bilingual AI app translating between Vincentian Creole and U.S. English to support cultural exchange and onboarding.</li>
-            <li>Authored prompt strategies and tone rules to preserve authentic speech; curated example dialogues for cultural learning and user testing.</li>
-            <li>Project link: <a href="https://partyrock.aws/u/Sandy608/9k1ZX7uy9/Vincy-Voice%3A-Island-Talk-and-U.S.-Life-Decoder" target="_blank" rel="noopener">Vincy Voice — project page</a></li>
-          </ul>
-        </div>
-      </section>
-      <!-- End Projects Section -->
+<div class="section">
+    <h2>Certifications & Training</h2>
+    <ul>
+        <li>Generative AI & ML Fundamentals (AWS)</li>
+        <li>Certified Front Desk Representative (AHLA)</li>
+        <li>Customer Service — SVG Ministry of Tourism</li>
+        <li>Professional Hospitality Training — HRC</li>
+    </ul>
+</div>
 
-      <!-- Start Additional Info / Footer -->
-      <section aria-labelledby="additional-heading">
-        <h2 id="additional-heading">Additional</h2>
-        <div class="muted-caption">
-          <strong>Availability:</strong> Active graduate student (MS Business Analytics) — available for part-time or internship roles aligned with analytics and data visualization.  
-        </div>
-      </section>
+<div class="section">
+    <h2>Selected Project</h2>
+    <p><strong>AWS Generative AI & ML Program — Vincy Voice: Island Talk & U.S. Life Decoder</strong><br>
+    Jul 2025 – Aug 2025 · Prompt Engineer & Content Curator<br>
+    - Built a bilingual AI app translating between Vincentian Creole and U.S. English.<br>
+    - Developed prompt strategies and tone rules to preserve authentic speech.<br>
+    - Curated dialogue examples for cultural learning and usability testing.</p>
+</div>
 
-      <footer aria-hidden="false">
-        <div>Resume generated for <strong>Cass D</strong>. Contact: <a href="mailto:delphinaj542@gmail.com">delphinaj542@gmail.com</a></div>
-      </footer>
-    </main>
-  </div>
+<div class="section">
+    <h2>Additional Information</h2>
+    <p>Active MS Business Analytics student — available for part-time or internship roles in analytics, BI, and data visualization.</p>
+</div>
+
 </body>
 </html>
+
